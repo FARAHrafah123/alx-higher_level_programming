@@ -1,6 +1,6 @@
 /*
- * File: 13-is_palindrome.c, lists.hc
- * Auth: FARAH RAHALI
+ * File: 13-is_palindrome.c
+ * Auth: Farah Rahali
  */
 
 #include "lists.h"
@@ -33,8 +33,9 @@ listint_t *reverse_listint(listint_t **head)
 /**
  * is_palindrome - Checks if a singly linked list is a palindrome.
  * @head: A pointer to the head of the linked list.
+ *
  * Return: If the linked list is not a palindrome - 0.
- *         If is a palindrome - 1.
+ *         If the linked list is a palindrome - 1.
  */
 int is_palindrome(listint_t **head)
 {
